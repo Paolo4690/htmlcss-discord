@@ -9,6 +9,9 @@ body {
     color: #fff;
 }
 
+
+ /* HEADER + NAV */ /* HEADER + NAV */ /* HEADER + NAV */ 
+
 header {
     height: 65vh;
 }
@@ -59,11 +62,6 @@ nav .login {
     float: right;
 }
 
-nav ul li a {
-    color: #fff;
-    text-decoration: none;
-}
-
 nav a.login {
     background-color: #fff;
     line-height: 25px;
@@ -78,8 +76,69 @@ nav ul li a:hover {
     text-decoration: underline;
 }
 
+.header-conteiner {
+    position: relative;
+
+    height: 89%;
+
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+
+}
+
+.download {
+    display: inline-block;
+    
+    border-radius: 2rem;
+
+    background-color: #fff;
+    padding: 1rem;
+    margin-top: 2rem;
+    margin-right: 1rem;
+    color: #000;
+}
+
+.open-broswer {
+    display: inline-block;
+    
+    border-radius: 2rem;
+
+    background-color: #121212;
+    padding: 1rem;
+    margin-top: 2rem;
+}
 
 
+
+
+
+
+/* GENERALI *//* GENERALI *//* GENERALI *//* GENERALI */
+a {
+    color: #fff;
+    text-decoration: none;
+}
+.center-main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    text-align: center;
+
+    width: 50%;
+}
+
+.center-main h1 {
+    font-size: 3rem;
+    padding-bottom: 2rem;
+}
+
+.center-main p {
+    font-size: 1rem;
+    padding-top: 1rem;
+    line-height: 1.6rem;
+}
 
 
 
