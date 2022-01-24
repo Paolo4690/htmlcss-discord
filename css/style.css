@@ -135,15 +135,13 @@ a {
     color: #fff;
     text-decoration: none;
 }
+
 .center-main {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-
-
+    margin: 0 auto;
+    padding: 4rem 0;
     max-width: 900px;
 }
+
 
 .center-main h1 {
     font-size: 3rem;
@@ -156,14 +154,11 @@ p {
 }
 
 section {
-    position: relative;
-
-    height: 73vh;
     color: #000;
 } 
 
 section.bg-gray {
-    background-color: #d5d5d5;
+    background-color: #f6f6f6;
 }
 
 section .column-left {
@@ -185,6 +180,9 @@ section img {
     width: 100%;
 }
 
+section .txt-center {
+    text-align: center;
+}
 
 
 
