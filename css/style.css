@@ -93,28 +93,24 @@ nav ul li a:hover {
 }
 
 .download {
-    display: inline-block;
     
-    border-radius: 2rem;
-
     background-color: #fff;
-    padding: 1rem;
     margin-top: 2rem;
     margin-right: 1rem;
     color: #000;
 }
 
 .open-broswer {
-    display: inline-block;
     
-    border-radius: 2rem;
 
     background-color: #121212;
-    padding: 1rem;
     margin-top: 2rem;
 }
 
-
+section span {
+    background-color: #8ea1e1;
+    color: #fff;
+}
 
 
 
@@ -142,6 +138,13 @@ a {
     max-width: 900px;
 }
 
+
+.tasti {
+    padding: 1rem;
+    display: inline-block;
+    border-radius: 2rem;
+
+}
 
 .center-main h1 {
     font-size: 3rem;
@@ -187,6 +190,16 @@ section .txt-center {
 
 
 
+
+
+section .pre-foot {
+    background-image: url(../img/stars.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: inline-block;
+    padding: 2rem 3rem;
+
+}
 
 
 
