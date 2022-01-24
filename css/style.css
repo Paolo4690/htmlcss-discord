@@ -121,6 +121,9 @@ nav ul li a:hover {
 .sect-2-txt  {
     padding-left: 3rem;;
 }
+.sect-3-txt  {
+    padding-right: 3rem;
+}
 
 
 
@@ -158,6 +161,10 @@ section {
     height: 73vh;
     color: #000;
 } 
+
+section.bg-gray {
+    background-color: #d5d5d5;
+}
 
 section .column-left {
     float: left;
