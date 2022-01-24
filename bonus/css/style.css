@@ -259,6 +259,14 @@ footer h3 {
     width: 20px;
 }
 
+.social {
+    padding-top: 1rem;
+}
+
+.social a{
+    margin-right: 1rem;
+}
+
 .first-column-foot span{
     font-size: .8rem;
 }
