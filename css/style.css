@@ -4,27 +4,99 @@
     box-sizing: border-box;
 }
 
-header {
-    height: 70vh;
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+}
 
-    background-color: aqua;
+header {
+    height: 65vh;
+}
+
+div.conteiner-nav {
+    height: 70px;
+
+    background-color: #3161e0;
 }
 
 nav {
-    height: 50px;
+    line-height: 70px;    
+    text-align: center;
+    font-size: .9rem;
+    font-weight: 400;
 
-    background-color: blueviolet;
+    
+    width: 900px;
+    margin: 0 auto;
 }
- section {
-     height: 70vh;
- } 
+
+.clearfix::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+nav .logo {
+    float: left;
+}
+
+nav .logo img {
+    vertical-align:middle ;
+}
+
+
+nav ul {
+    display: inline-block;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 0 1rem;
+}
+
+
+nav .login {
+    float: right;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav a.login {
+    background-color: #fff;
+    line-height: 25px;
+    margin-top: 1.2rem;
+    padding: .2rem .8rem;
+    border-radius: 2rem;
+    color: #000;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+section {
+    height: 70vh;
+    color: #000;
+} 
  
- section.gold {
+section.gold {
     background-color: gold;
- }
+}
 
- footer {
-     height: 30vh;
+footer {
+    height: 30vh;
 
-     background-color: gray;
- }
+    background-color: gray;
+}
