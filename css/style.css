@@ -29,7 +29,7 @@ nav {
     font-weight: 400;
 
     
-    width: 900px;
+    max-width: 900px;
     margin: 0 auto;
 }
 
@@ -80,10 +80,16 @@ nav ul li a:hover {
     position: relative;
 
     height: 89%;
+    
+    text-align: center;
 
     background-image: url(../img/jumbo.png);
     background-size: cover;
 
+}
+
+.header-conteiner p {
+    padding: 1rem 7rem 0 7rem;
 }
 
 .download {
@@ -112,6 +118,14 @@ nav ul li a:hover {
 
 
 
+.sect-2-txt  {
+    padding-left: 3rem;;
+}
+
+
+
+
+
 
 /* GENERALI *//* GENERALI *//* GENERALI *//* GENERALI */
 a {
@@ -124,9 +138,8 @@ a {
     left: 50%;
     transform: translate(-50%, -50%);
 
-    text-align: center;
 
-    width: 50%;
+    max-width: 900px;
 }
 
 .center-main h1 {
@@ -134,10 +147,35 @@ a {
     padding-bottom: 2rem;
 }
 
-.center-main p {
+p {
     font-size: 1rem;
-    padding-top: 1rem;
     line-height: 1.6rem;
+}
+
+section {
+    position: relative;
+
+    height: 73vh;
+    color: #000;
+} 
+
+section .column-left {
+    float: left;
+}
+
+.sect-1 {
+    width: 65%;
+}
+.sect-2 {
+    width: 35%;
+}
+
+section .column-right {
+    float: right;
+}
+
+section img {
+    width: 100%;
 }
 
 
@@ -145,10 +183,8 @@ a {
 
 
 
-section {
-    height: 70vh;
-    color: #000;
-} 
+
+
  
 section.gold {
     background-color: gold;
