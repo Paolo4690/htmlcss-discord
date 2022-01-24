@@ -65,6 +65,7 @@ nav .login {
 nav a.login {
     background-color: #fff;
     line-height: 25px;
+    font-size: .8rem;
     margin-top: 1.2rem;
     padding: .2rem .8rem;
     border-radius: 2rem;
@@ -77,8 +78,6 @@ nav ul li a:hover {
 }
 
 .header-conteiner {
-    position: relative;
-
     height: 89%;
     
     text-align: center;
@@ -189,9 +188,6 @@ section .txt-center {
 
 
 
-
-
-
 section .pre-foot {
     background-image: url(../img/stars.svg);
     background-size: contain;
@@ -203,13 +199,81 @@ section .pre-foot {
 
 
 
- 
-section.gold {
-    background-color: gold;
-}
+/* FOOTER  *//* FOOTER  *//* FOOTER  *//* FOOTER  *//* FOOTER  */
 
 footer {
-    height: 30vh;
+    background-color: #23272a;
+}
 
-    background-color: gray;
+.center-foot {
+    margin: 0 auto;
+    padding-top: 4rem;
+    max-width: 900px;
+}
+.center-foot-final {
+    margin: 0 auto ;
+    max-width: 900px;
+    padding-bottom: 3rem;
+}
+
+.first-column-foot {
+    float: left;
+    width: 25%;
+} 
+
+.other-column-foot {
+    float: left;
+    width:calc((100% - 25%) /4);
+    padding-left: 1.2rem;
+    padding-bottom: 1.5rem;
+}
+
+footer h3 {
+    color: #7289da;
+    font-size: 1.5rem;
+    font-weight: 900;
+    padding-bottom: .8rem;
+}
+
+.first-column-foot img {
+    width: 20px;
+}
+
+.first-column-foot span{
+    font-size: .8rem;
+}
+
+footer ul li {
+    list-style: none;
+    line-height: 1.8rem;
+    font-size: .9rem;
+}
+
+ul li span {
+    color: #7289da;
+    font-weight: 900;
+}
+
+hr {
+    border:0;
+    border-bottom:  1px solid #7289da;
+}
+
+.center-foot-final img {
+    margin-top: 1.5rem;
+    float: left;
+}
+
+
+ a.login-footer {
+    background-color: #7289da;    
+    float: right;
+    margin-top: 1.5rem;
+    line-height: 25px;
+    margin-top: 1.2rem;
+    padding: .2rem .8rem;
+    border-radius: 2rem;
+    color: #fff;
+    text-decoration: none;
+    font-size: .8rem;
 }
