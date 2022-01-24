@@ -73,7 +73,12 @@ nav a.login {
     text-decoration: none;
 }
 
-nav ul li a:hover {
+nav a.login:hover, .tasti:hover, a.login-footer:hover  {
+    box-shadow: 0 8px 15px rgb(0 0 0 / 20%);
+}
+
+
+ul li a:hover {
     text-decoration: underline;
 }
 
@@ -99,16 +104,28 @@ nav ul li a:hover {
     color: #000;
 }
 
+.download:hover {
+    color: #3161e0;
+}
+
 .open-broswer {
     
-
-    background-color: #121212;
+    background-color: #23272a;
     margin-top: 2rem;
 }
 
+.open-broswer:hover {
+    background-color: #36393f;
+}
+
 section span {
-    background-color: #8ea1e1;
+    background-color: #6d88e0;
     color: #fff;
+}
+
+section a:hover span.tasti, 
+a.login-footer:hover {
+    background-color: #8ea1e1;
 }
 
 .ruota {
@@ -259,7 +276,7 @@ ul li span {
 
 hr {
     border:0;
-    border-bottom:  1px solid #7289da;
+    border-bottom:  1px solid #6d88e0;
 }
 
 .center-foot-final img {
@@ -269,7 +286,7 @@ hr {
 
 
  a.login-footer {
-    background-color: #7289da;    
+    background-color: #6d88e0;    
     float: right;
     margin-top: 1.5rem;
     line-height: 25px;
